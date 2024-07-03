@@ -50,8 +50,6 @@ const Total = (props) => {
       <Header course={course} />
       <Content />
       <Total total={exercises1 + exercises2 + exercises3} />
-
-      <p>Number of exercises {exercises1 + exercises2 + exercises3}</p>
     </div>
   )
 }
